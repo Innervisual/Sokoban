@@ -1,0 +1,31 @@
+#map{
+    width: 665px;
+    height: 385px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,35px);
+}
+
+.tile{
+    border: 1px solid black;
+    width: 35px; /* 665/19rows=35 in this case...*/
+    height: 35px; /* as above 385/11=35...*/
+    box-sizing: border-box;
+}
+
+#player{
+    background-image: url("https://sokoban.info/img/i5.gif");
+}
+.stoneblock{
+    background-image: url("https://sokoban.info/img/i2.gif");
+}
+.crate{
+    background-image: url("https://sokoban.info/img/i3.gif")!important;
+}
+.food{
+    background-image: url("https://sokoban.info/img/i1.gif");
+}
+.background {
+     background-image: url("https://sokoban.info/img/i7.gif");
+    
+}
